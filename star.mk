@@ -80,7 +80,7 @@ PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
 
 # Set default USB interface
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+PRODUCT_PROPERTY_OVERRIDES += \
 	persist.sys.usb.config=mtp
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
